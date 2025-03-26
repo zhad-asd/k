@@ -32,6 +32,7 @@ courses = data["kbList"]#遍历所有课程
 #print(asd['kcmc'])#课程名称（访问字典元素）
 
 for course in courses:
+      course['xm']='XXXX'
     print(f"课程名称: {course['kcmc']}")
     print(f"上课时间: 星期{course['xqj']} {course['jc']}")
     print(f"上课地点: {course['cdmc']}")
